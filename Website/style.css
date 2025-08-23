@@ -168,7 +168,7 @@ animation: fadeInTop 0.8s ease-out forwards;
 }
 @font-face {
     font-family: "NewFont";
-    src: url(../Fonts/PressStartDxRegular-vnZ44.ttf) format("truetype");
+    src: url(Fonts/PressStartDxRegular-vnZ44.ttf) format("truetype");
 }
 .speakerbox {
    position:relative;

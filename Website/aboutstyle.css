@@ -143,7 +143,7 @@ opacity:0;
 }
 @font-face {
     font-family: "NewFont";
-    src: url(../Fonts/PressStartDxRegular-vnZ44.ttf) format("truetype");
+    src: url(Fonts/PressStartDxRegular-vnZ44.ttf) format("truetype");
 }
 .paragraph {
 font-size: clamp(12px,2vw,24px);
