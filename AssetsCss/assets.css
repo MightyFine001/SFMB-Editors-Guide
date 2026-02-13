@@ -294,7 +294,7 @@ opacity:0;
     filter: drop-shadow(1vw 1vw 0 rgba(0,0,0,0.5)); 
 }
 .onebyonenoshadow {
-    aspect-ratio:1/1;
+    aspect-ratio:28/26;
     margin-left:10vw;
     width:clamp(50px,20vw,200px); 
 }
@@ -322,6 +322,12 @@ opacity:0;
     filter: drop-shadow(1vw 1vw 0 rgba(0,0,0,0.5));
 }
 
+.unique1 {
+     aspect-ratio:4/5;
+    margin-left:10vw;
+    width:clamp(50px,20vw,200px); 
+    filter: drop-shadow(1vw 1vw 0 rgba(0,0,0,0.5));
+}
 
 .footer {
     background-color: black;
