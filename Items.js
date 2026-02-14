@@ -19,6 +19,7 @@ const switchOff = "../GizmosImages/ONOFFSwitch.gif";
 const blockOn   = "../GizmosImages/RedDottedBlockOn.png";
 const blockOff  = "../GizmosImages/RedDottedBlockOff.png";
 const toggleSound = new Audio("../Sounds/OnOffSwitch.wav");
+const SECOND_STATE = false;
 toggleSound.volume = 0.3;
 let isOn = true;
 function updateAll() {
@@ -52,6 +53,13 @@ buttons.forEach(btn => {
       btn.style.transform = "scale(1)";
     }, 180);
 
+    toggleSystem();
+  });
+
+});
+switches.forEach(sw => {
+  sw.addEventListener("click", () => {
+    if (isOn !== SECOND_STATE) return;
     toggleSystem();
   });
 
