@@ -274,6 +274,12 @@ opacity:0;
     width:clamp(50px,20vw,200px); 
     filter: drop-shadow(1vw 1vw 0 rgba(0,0,0,0.5));
 }
+.fivebyfour {
+    aspect-ratio:5/4;
+    margin-left:10vw;
+    width:clamp(50px,20vw,200px); 
+    filter: drop-shadow(1vw 1vw 0 rgba(0,0,0,0.5));
+}
 .funkyleaf {
     aspect-ratio:15/16;
     margin-left:10vw;
