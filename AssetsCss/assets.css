@@ -301,7 +301,26 @@ opacity:0;
 .twobythree {
     aspect-ratio:2/3;
     margin-left:10vw;
+    width:clamp(50px,15vw,180px); 
+     filter: drop-shadow(1vw 1vw 0 rgba(0,0,0,0.5)); 
+}
+.fourbyfive {
+    aspect-ratio:4/5;
+    margin-left:10vw;
+    width:clamp(50px,15vw,180px); 
+     filter: drop-shadow(1vw 1vw 0 rgba(0,0,0,0.5)); 
+}
+.threebyfive {
+    aspect-ratio:3/5;
+    margin-left:10vw;
+    width:clamp(50px,10vw,120px); 
+     filter: drop-shadow(1vw 1vw 0 rgba(0,0,0,0.5)); 
+}
+.threebyfour {
+    aspect-ratio:3/4;
+    margin-left:10vw;
     width:clamp(50px,20vw,200px); 
+     filter: drop-shadow(1vw 1vw 0 rgba(0,0,0,0.5)); 
 }
 .pswitch {
     aspect-ratio:1/1;
@@ -321,13 +340,21 @@ opacity:0;
     width:clamp(50px,20vw,200px); 
     filter: drop-shadow(1vw 1vw 0 rgba(0,0,0,0.5));
 }
-
-.unique1 {
-     aspect-ratio:4/5;
+.pokey {
+    aspect-ratio:16/49;
+    margin-left:10vw;
+    width:clamp(50px,7vw,70px); 
+    filter: drop-shadow(1vw 1vw 0 rgba(0,0,0,0.5));
+}
+.wiggler {
+    aspect-ratio:21/13;
     margin-left:10vw;
     width:clamp(50px,20vw,200px); 
     filter: drop-shadow(1vw 1vw 0 rgba(0,0,0,0.5));
 }
+
+
+
 
 .footer {
     background-color: black;
